@@ -90,7 +90,7 @@ Returns an instance of `Topic`.
 
 # Versioning
 
-We use [SemVer](http://semver.org/). For available versions of this project see [releases](./rx-mqtt/releases).
+We use [SemVer](http://semver.org/). For available versions of this project see [releases](https://github.com/platdesign/rx-mqtt/releases).
 
 # Author
 
@@ -99,7 +99,7 @@ We use [SemVer](http://semver.org/). For available versions of this project see 
 
 # License
 
-This project is licensed under the MIT License - see the (LICENSE)[./LICENSE] file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 
 
