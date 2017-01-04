@@ -44,7 +44,7 @@ client
 
 # API
 
-- [rxmqtt.connect()](#rxmqtt.connecturi-options)
+- [rxmqtt.connect()](#rxmqttconnecturi-options)
 - [client.topic()]()
 - [topic.subscribe()]()
 - [topic.publish()]()
