@@ -108,7 +108,7 @@ We use [SemVer](http://semver.org/). For available versions of this project see 
 
 # Author
 
-[@platdesign](https://twitter.com/platdesign)
+Christian Blaschke - [@platdesign](https://twitter.com/platdesign)
 
 
 # License
