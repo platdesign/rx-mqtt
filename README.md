@@ -45,10 +45,10 @@ client
 # API
 
 - [rxmqtt.connect()](#rxmqttconnecturi-options)
-- [client.topic()]()
-- [topic.subscribe()]()
-- [topic.publish()]()
-- [topic.createObserver()]()
+- [client.topic()](#clienttopicid)
+- [topic.subscribe()](#topicsubscribeobserver)
+- [topic.publish()](#topicpublishmsg-options)
+- [topic.createObserver()](#topiccreateobserveroptions)
 
 -----
 
