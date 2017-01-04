@@ -7,7 +7,7 @@ Reactive mqtt client based on [mqtt](https://www.npmjs.com/package/mqtt) and [rx
 
 `npm install --save rx-mqtt`
 
-# Usage
+# Basic usage
 
 ```javascript
 const rxmqtt = require('rxmqtt');
