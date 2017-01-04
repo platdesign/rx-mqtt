@@ -87,6 +87,20 @@ Returns an instance of `Topic`.
 
 - `options` - (Object)
 
+----
+
+# Running tests
+
+- `npm install`
+- `npm test`
+
+
+
+# Built with
+
+- [rx](https://www.npmjs.com/package/rx) Library for composing asynchronous and event-based operations in JavaScript
+- [mqtt](https://www.npmjs.com/package/mqtt) A library for the MQTT protocol
+
 
 # Versioning
 
