@@ -36,11 +36,6 @@ describe('rx-mqtt', function() {
 
 
 
-
-
-
-
-
 		it('should have method topic', () => expect(client.topic).to.be.a.function());
 
 

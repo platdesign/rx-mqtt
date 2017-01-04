@@ -44,26 +44,46 @@ client
 
 # API
 
+- [rxmqtt.connect()](rxmqtt.connecturi-options)
+- [client.topic()]()
+- [topic.subscribe()]()
+- [topic.publish()]()
+- [topic.createObserver()]()
+
+-----
+
+## RxMqtt
+
+### rxmqtt.connect(uri, [options])
+
+Returns an instance of `Client`.
+
+- `uri` - (String, Object) the uri where mqtt broker is located. Directly passed to [mqtt.connect(uri, [options])](https://www.npmjs.com/package/mqtt#connect)
+- `options` - (Object) will be directly passed to [mqtt.connect(uri, [options])](https://www.npmjs.com/package/mqtt#connect)
+
+
 ## Client
 
-### topic(id)
+### client.topic(id)
+
+Returns an instance of `Topic`.
 
 - `id` - (String) the path of the topic to publish/subscribe to
 
 
 ## Topic
 
-### subscribe(observer)
+### topic.subscribe(observer)
 
 - `observer` - (Function, RxObserver)
 
 
-### publish(msg, [options])
+### topic.publish(msg, [options])
 
 - `msg` - (String, Buffer)
 - `options` - (Object)
 
-### createObserver([options])
+### topic.createObserver([options])
 
 - `options` - (Object)
 
