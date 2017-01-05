@@ -9,6 +9,8 @@ const RXMQTTClient = require('../lib/client');
 const RXMQTTTopic = require('../lib/topic');
 
 
+
+
 const MQTT_BROKER_URI = process.env.MQTT_BROKER_URI || 'mqtt://localhost:1883';
 
 
@@ -33,7 +35,7 @@ describe('rx-mqtt', function() {
 
 		let client;
 		before(() => {
-			client = rxmqtt.connect('mqtt://localhost:1883', {
+			client = rxmqtt.connect(MQTT_BROKER_URI, {
 				clientId: 'rx-mqtt-test',
 				clean: false
 			})
