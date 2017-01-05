@@ -15,6 +15,9 @@ const MQTT_BROKER_URI = process.env.MQTT_BROKER_URI || 'mqtt://localhost:1883';
 
 
 
+
+
+
 describe('rx-mqtt', function() {
 	this.timeout(0);
 
@@ -68,7 +71,7 @@ describe('rx-mqtt', function() {
 
 			it('should have method publish', () => expect(topic.publish).to.be.a.function());
 
-			it('method publish should return a promise', () => {
+			it('method publish() should return a promise and resolve', () => {
 				let p = topic.publish('test');
 				expect(p).to.be.an.instanceOf(Promise);
 				return p.then((res) => expect(res).to.be.undefined());
