@@ -8,11 +8,11 @@
       "url": "https://github.com/platdesign"
     }
   ],
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "./lib",
-  "scripts":{
-    "test":"NODE_ENV=test mocha",
-    "test-watch":"NODE_ENV=test mocha -w"
+  "scripts": {
+    "test": "NODE_ENV=test mocha",
+    "test-watch": "NODE_ENV=test mocha -w"
   },
   "dependencies": {
     "mqtt": "^2.2.0",
