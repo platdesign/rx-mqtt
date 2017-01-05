@@ -2,6 +2,7 @@
 
 Reactive mqtt client based on [mqtt](https://www.npmjs.com/package/mqtt) and [rx](https://www.npmjs.com/package/rx).
 
+[![Build Status](https://travis-ci.org/platdesign/rx-mqtt.svg?branch=master)](https://travis-ci.org/platdesign/rx-mqtt)
 
 # Install
 
