@@ -9,14 +9,19 @@ const RXMQTTClient = require('../lib/client');
 const RXMQTTTopic = require('../lib/topic');
 
 
+const MQTT_BROKER_URI = process.env.MQTT_BROKER_URI || 'mqtt://localhost:1883';
+
+
+
 describe('rx-mqtt', function() {
+	this.timeout(0);
 
 
 	it('should have method connect', () => expect(rxmqtt.connect).to.be.a.function());
 
 
 	it('method connect should return instance of client', () => {
-		let client = rxmqtt.connect('mqtt://localhost:1883', {
+		let client = rxmqtt.connect(MQTT_BROKER_URI, {
 			clientId: 'rx-mqtt-test',
 			clean: false
 		});
