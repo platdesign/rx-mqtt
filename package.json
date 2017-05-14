@@ -21,6 +21,6 @@
   "repository": "git@github.com:platdesign/rx-mqtt.git",
   "devDependencies": {
     "code": "^4.0.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.4.0"
   }
 }
